@@ -46,8 +46,8 @@ WINDOW_SIZE);
         } 
         else 
         { 
-            printf("Receiver: NACK for frame %d. Go-Back-N triggered.\n", sent + error_index + 1); 
-            printf("Receiver: Discards all frames after and incl. frame %d.\n", sent + error_index + 1); 
+            printf("NACK for frame %d. Go-Back-N.\n", sent + error_index + 1); 
+            printf("Retransmitting from frame %d.\n", sent + error_index + 1); 
             sent += error_index; 
             ack += error_index; 
         } 
