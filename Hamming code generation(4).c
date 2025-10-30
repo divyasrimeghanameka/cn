@@ -57,8 +57,7 @@ int main()
             printf("%d ", hcode[i]); 
         printf("\n"); 
     } 
-    printf("Extracted data bits: %d %d %d %d\n", hcode[2], hcode[4], hcode[5], hcode[6]); 
- 
+    printf("Extracted data bits: %d %d %d %d\n", hcode[2], hcode[4], hcode[5], hcode[6]);  
     return 0; 
 }
 /*
