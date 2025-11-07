@@ -31,3 +31,10 @@ async function run() {
 }
 
 run();
+/*output:
+Connected to MongoDB Atlas 
+'teachers' collection created in 'schoolDB' 
+Inserted a document into 'students' collection 
+'teachers' collection dropped 
+ 'schoolDB' database dropped  
+Connection closed*/
